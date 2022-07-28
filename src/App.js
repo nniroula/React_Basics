@@ -3,10 +3,13 @@ import './App.css';
 import SimpleComponent from './SimpleComponent';
 
 function App() {
-  return (
+    return (
   
-    <SimpleComponent />
-  );
+    <>
+        <div>This a simple project in ReactJs and its fundamentals</div><
+        SimpleComponent />
+        </>
+    );
 }
 
 export default App;
