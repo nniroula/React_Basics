@@ -9,7 +9,7 @@ const SimpleComponent = () => {
 
     return  (
         <div>
-            <h3>Count: (num)</h3>
+            <h3>Count: {num}</h3>
             <button onClick={clickUP}>Up</button>
         </div>
     )
