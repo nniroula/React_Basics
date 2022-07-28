@@ -8,6 +8,7 @@ function App() {
     <>
         <div>This a simple project in ReactJs and its fundamentals</div><
         SimpleComponent />
+        
         </>
     );
 }
