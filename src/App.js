@@ -2,6 +2,7 @@
 import './App.css';
 import SimpleComponent from './SimpleComponent';
 import NumbersList from './NumbersList';
+import NumberItem from './NumberItem';
 
 function App() {
     return (
@@ -11,6 +12,8 @@ function App() {
         SimpleComponent />
 
         <NumbersList />
+
+        <NumberItem />
         
         </>
     );
