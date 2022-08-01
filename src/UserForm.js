@@ -7,6 +7,14 @@ const UserForm = () => {
         // set this to the changed value using useState
         console.log( event.target.value);
         setUsername(event.target.value) 
+       
+    }
+
+    // on button click
+    const handleClick = (e) => {
+        e.preventDefault();
+        // setUsername(e.target.value) // if used this line, state is not preserved.
+     
     }
 
     return (
@@ -20,7 +28,7 @@ const UserForm = () => {
             {/* <input type="text" placeholder="username" value={username}/> */}
             {/* add onChange attribute to make input field editable */}
             <input type="text" placeholder="username" value={username} onChange={handleChange}/>
-            <button>Sign Up</button>
+            <button onClick={handleClick}>Sign Up</button>
         </form>
     )
 }
