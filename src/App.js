@@ -3,7 +3,7 @@ import './App.css';
 // import SimpleComponent from './SimpleComponent';
 // import NumbersList from './NumbersList';
 // import NumberItem from './NumberItem';
-import Dice from './Dice';
+// import Dice from './Dice';
 import UserForm from './UserForm';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
   
     <>
         <div>This a simple project in ReactJs and its fundamentals</div>
-        {/* <SimpleComponent /> */}
+             {/* <SimpleComponent /> */}
 
         {/* <NumbersList />
 
@@ -22,7 +22,7 @@ function App() {
 
         <UserForm />
         
-        </>
+    </>
     );
 }
 
