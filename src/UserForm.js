@@ -24,11 +24,14 @@ const UserForm = () => {
         // </form>
 
         // React way
-        <form>
+        // <form>
+        <form onSubmit={handleClick}>
             {/* <input type="text" placeholder="username" value={username}/> */}
             {/* add onChange attribute to make input field editable */}
             <input type="text" placeholder="username" value={username} onChange={handleChange}/>
-            <button onClick={handleClick}>Sign Up</button>
+            {/* <button onClick={handleClick}>Sign Up</button> */}
+            {/* OR use the onSubmit with form  */}
+            <button>Sign Up</button>
         </form>
     )
 }

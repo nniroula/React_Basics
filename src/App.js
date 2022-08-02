@@ -4,7 +4,8 @@ import './App.css';
 // import NumbersList from './NumbersList';
 // import NumberItem from './NumberItem';
 // import Dice from './Dice';
-import UserForm from './UserForm';
+// import UserForm from './UserForm';
+import Form from './Form';
 
 function App() {
     return (
@@ -20,7 +21,9 @@ function App() {
         {/* <Dice numDice={4}/> */}
         {/* <Dice /> */}
 
-        <UserForm />
+        {/* <UserForm /> */}
+
+        <Form />
         
     </>
     );
